@@ -3,7 +3,7 @@ import Ingredients from './Ingredients';
 
 function IngredientList(props) {
     return (
-        <div>
+        <div class="ingredientlist">
             <Ingredients ingredients={props.ingredients} onClick={props.onClick} />
         </div>
     )

@@ -31,7 +31,7 @@ function App(props) {
 
  
   return (
-    <div>
+    <div class="body">
       <IngredientList ingredients={ingredients} onClick={addIngredients}/>
       <BurgerPane burgerpane={burgerpane} onClick={addIngredients} clearClick={clearClick}/>
     </div>
